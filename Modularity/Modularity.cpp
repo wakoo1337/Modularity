@@ -1,12 +1,18 @@
 module Modularity;
 
 int main() {
-	const double x = 10;
+	const double x = 13.37;
 	const int i = 15;
 	const int n = 150;
 	const double eps = 0.001;
 
-	std::cout << "Task 1" << std::endl;
+	std::cout << "Values" << std::endl;
+	std::cout << "  x   = " << x << std::endl;
+	std::cout << "  i   = " << i << std::endl;
+	std::cout << "  n   = " << n << std::endl;
+	std::cout << "  eps = " << eps << std::endl;
+
+	std::cout << std::endl << "Task 1" << std::endl;
 	std::cout << "f(" << x << ") = " << Task1::f(x) << std::endl;
 	std::cout << "f2(" << x << ") = " << Task1::f2(x) << std::endl;
 	std::cout << "a(" << i << ") = " << Task1::a(i) << std::endl;
