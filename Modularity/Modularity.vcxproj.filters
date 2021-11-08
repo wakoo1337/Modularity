@@ -48,9 +48,6 @@
     <ClCompile Include="Modularity.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Modularity.ixx">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="BPZ1901.Tolstokorov.Lab3.Task4.ixx">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
