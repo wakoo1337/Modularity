@@ -29,7 +29,7 @@ int main() {
 
 	std::cout << "f(" << x << ") = " << Task2::f(x) << std::endl;
 	std::cout << "f2(" << x << ") = " << Task2::f2(x) << std::endl;
-	std::cout << "a(" << i << ") = " << Task2::a(i) << std::endl;
+	// Тут раньше был вызов функции a, но теперь она не экспортируется
 	std::cout << "f3(" << n << ") = " << Task2::f3(n) << std::endl;
 	std::cout << "f4(" << eps << ") = " << Task2::f4(eps) << std::endl;
 
