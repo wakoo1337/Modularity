@@ -45,7 +45,7 @@ int main() {
 
 	std::cout << "f(" << x << ") = " << Task4::f(x) << std::endl;
 	std::cout << "f2(" << x << ") = " << Task4::f2(x) << std::endl;
-	std::cout << "a(" << i << ") = " << Task4::a(i) << std::endl;
+	// Тут раньше был вызов функции a, но теперь она не экспортируется
 	std::cout << "f3(" << n << ") = " << Task4::f3(n) << std::endl;
 	std::cout << "f4(" << eps << ") = " << Task4::f4(eps) << std::endl;
 
@@ -53,7 +53,7 @@ int main() {
 
 	std::cout << "f(" << x << ") = " << Task5::f(x) << std::endl;
 	std::cout << "f2(" << x << ") = " << Task5::f2(x) << std::endl;
-	std::cout << "a(" << i << ") = " << Task5::a(i) << std::endl;
+	// Тут раньше был вызов функции a, но теперь она не экспортируется
 	std::cout << "f3(" << n << ") = " << Task5::f3(n) << std::endl;
 	std::cout << "f4(" << eps << ") = " << Task5::f4(eps) << std::endl;
 }
