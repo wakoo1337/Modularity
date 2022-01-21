@@ -21,7 +21,7 @@ int main() {
 	std::cout << std::endl << "Task 1" << std::endl;
 	std::cout << "f(" << x << ") = " << Task1::f(x) << std::endl;
 	std::cout << "f2(" << x << ") = " << Task1::f2(x) << std::endl;
-	// “ут раньше был вызов функции a, но теперь она не экспортируетс¤
+	// Тут раньше был вызов функции a, но теперь она не экспортируется
 	std::cout << "f3(" << n << ") = " << Task1::f3(n) << std::endl;
 	std::cout << "f4(" << eps << ") = " << Task1::f4(eps) << std::endl;
 
@@ -37,7 +37,7 @@ int main() {
 
 	std::cout << "f(" << x << ") = " << Task3::f(x) << std::endl;
 	std::cout << "f2(" << x << ") = " << Task3::f2(x) << std::endl;
-	std::cout << "a(" << i << ") = " << Task3::a(i) << std::endl;
+	// Тут раньше был вызов функции a, но теперь она не экспортируется
 	std::cout << "f3(" << n << ") = " << Task3::f3(n) << std::endl;
 	std::cout << "f4(" << eps << ") = " << Task3::f4(eps) << std::endl;
 
